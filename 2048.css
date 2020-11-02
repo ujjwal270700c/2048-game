@@ -1,0 +1,38 @@
+.grid{
+    display: flex;
+    flex-wrap: wrap;
+    width: 600x;
+    height: 600px;
+   
+}
+
+.grid div{
+    width: 150px;
+    height: 150px;
+    background-color: lightblue;
+    font-size: 60px;
+    text-align: center;
+    font-weight: bold;
+}
+header{
+    background-color: rgb(27, 16, 16);
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+#playarea{
+    background-color:lightcoral;
+    margin: 10px auto;
+    max-width: 600px;
+}
+.score-container{
+
+   
+    padding:1px 4px;
+    font-size: 25px;
+    
+}
+#playarea #result{
+    font-weight:bold;
+    font-size: 30px;
+}
